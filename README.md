@@ -17,3 +17,4 @@ We can see from the following command output that the web application is broken 
 * The website is a simple web app running on apache.
 * The API service is an Express Nodejs api layer for looking up the nouns, verbs, and adjectives.
 * The Save service is also an Express Nodejs api layer handling save requests and persisting to DynamoDB 
+![ScreenShot](https://github.com/NavarroAlexKU/Building-and-Deploying-Containers-Using-Amazon-Elastic-Container-Service/blob/main/Screenshot%202023-02-21%20at%202.18.35%20PM.png)
