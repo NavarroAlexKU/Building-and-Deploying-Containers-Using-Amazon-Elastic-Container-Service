@@ -3,3 +3,13 @@
 ## 🔗 Contact Information
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexnavarro2/)
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBpRjxKKJtxTLNxwpsKvpfbRSRnRLcTQRMZLcKCNfrJjXfcNNKPmstkbHJpzHGNZnHvhCph)
+
+### Application Overview:
+The web application is composed of a website with two supporting API services. The website displays a form where you compose a story with placeholders for nouns, verbs, and adjectives. When you click the submit button, the words API is queried for the words needed in order to fill in all the placeholders in the story text.
+
+### Project Overview:
+* Build the Docker container for each component of the web app on a command host.
+* Then push the Docker container to the Amazon Elastic Container Repository so they can be retrieved when the ECS cluster is built.'
+* Launch CloudFormation template which will build the ECS Cluster with an ECS Service defined for each three components of the web application.
+
+### Login to Command Host:
