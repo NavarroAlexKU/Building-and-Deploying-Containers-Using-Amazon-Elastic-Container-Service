@@ -13,3 +13,7 @@ The web application is composed of a website with two supporting API services. T
 * Launch CloudFormation template which will build the ECS Cluster with an ECS Service defined for each three components of the web application.
 
 ### Login to Command Host:
+We can see from the following command output that the web application is broken into three different layers:
+* The website is a simple web app running on apache.
+* The API service is an Express Nodejs api layer for looking up the nouns, verbs, and adjectives.
+* The Save service is also an Express Nodejs api layer handling save requests and persisting to DynamoDB 
